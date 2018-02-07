@@ -1,0 +1,41 @@
+{
+  "name": "geekjc-doc",
+  "version": "1.0.0",
+  "description": "Simple document generation tool. Dependence Node.js run.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cllgeek/geekjc-doc.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "geekjc-doc": ".bin/geekjc-doc.js"
+  },
+  "keywords": [
+    "geekjc-doc",
+    "markdown",
+    "api",
+    "document",
+    "tool"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ll <geekjc123@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer-stylus": "^0.13.0",
+    "cheerio": "^0.22.0",
+    "chokidar": "^1.6.1",
+    "colors-cli": "^1.0.7",
+    "commander": "^2.9.0",
+    "ejs": "^2.5.6",
+    "highlight.js": "^9.9.0",
+    "inquirer": "^3.0.5",
+    "marked": "^0.3.6",
+    "semver": "^5.3.0",
+    "shelljs": "^0.7.6",
+    "ssr": "^1.0.15",
+    "stylus": "^0.54.5",
+    "underscore": "^1.8.3"
+  }
+}
