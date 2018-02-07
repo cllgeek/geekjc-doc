@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "bin": {
-    "geekjc-doc": ".bin/geekjc-doc.js"
+    "geekjc-doc": "bin/geekjc-doc.js"
   },
   "keywords": [
     "geekjc-doc",
