@@ -25,7 +25,7 @@ module.exports = function(commander){
         var pkg = require(pkgurl);
 
         if(file.exists(pkgurl)&&!pkg.idoc){
-            return console.log( color.red('\n This is not the "idoc" project. \n') );  
+            return console.log( color.red('\n This is not the "gdoc" project. \n') );  
         }
     }else{
         return init(commander);

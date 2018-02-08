@@ -58,7 +58,7 @@ $ sudo npm install geekjc-doc -g
 
 # TODO
 
-- [x] idoc 基本命令定义
+- [x] geekjc-doc 基本命令定义
 - [x] 添加 build 命令，markdown生成静态页面
 - [x] 添加 watch 命令，监控markdown文件自动生成HMTL页面
 - [x] 默认模板制作
@@ -68,7 +68,7 @@ $ sudo npm install geekjc-doc -g
 - [x] 添加 clean 命令
 - [x] 静态资源相对路径引用
 - [x] github 连接地址添加
-- [x] `idoc deploy` === `git push -f origin gh-pages`
+- [x] `geekjc-doc deploy` === `git push -f origin gh-pages`
 - [ ] 配置文件配置下载 md 文件
 - [x] 解决server 端口冲突
 - [ ] 判断是否存在markdown树形导航菜单
