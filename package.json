@@ -1,6 +1,6 @@
 {
   "name": "geekjc-doc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple document generation tool. Dependence Node.js run.",
   "repository": {
     "type": "git",
