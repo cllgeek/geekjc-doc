@@ -6,7 +6,7 @@ var clean   = require('./lib/clean');
 var deploy  = require('./lib/deploy');
 var pdf     = require('./lib/pdf');
 var theme   = require('./lib/theme');
-var color   = require('colors-cli');
+var color   = require('chalk');
 var path    = require('path');
 var server  = require('ssr');
 
@@ -24,7 +24,7 @@ module.exports = function(commander){
         // 载入配置文件
         var pkg = require(pkgurl);
 
-        if(file.exists(pkgurl)&&!pkg.idoc){
+        if(file.exists(pkgurl)&&!pkg.gdoc){
             return console.log( color.red('\n This is not the "gdoc" project. \n') );  
         }
     }else{

@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%=title%></title>
-        <%if(pkg.idoc&&pkg.idoc.logo){ var iconurl = pkg.idoc.logo %>
+        <%if(pkg.gdoc&&pkg.gdoc.logo){ var iconurl = pkg.gdoc.logo %>
         <%if(/\.png$/.test(iconurl)){%>
-        <link rel="shortcut icon" href="<%=relative_path%><%=pkg.idoc.logo%>" type="image/x-png">
+        <link rel="shortcut icon" href="<%=relative_path%><%=pkg.gdoc.logo%>" type="image/x-png">
         <%}else if(/\.ico$/.test(iconurl)){%>
-        <link rel="shortcut icon" href="<%=relative_path%><%=pkg.idoc.logo%>" type="image/x-icon">
+        <link rel="shortcut icon" href="<%=relative_path%><%=pkg.gdoc.logo%>" type="image/x-icon">
         <%}%>
     <%}%>
     <link rel="stylesheet" type="text/css" href="<%=relative_path%>static/css/main.css">

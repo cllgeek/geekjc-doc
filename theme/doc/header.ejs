@@ -1,13 +1,13 @@
 <div class="navbar <%if(!index){%>navbar-line<%}%>">
     <div class="container">
         <div class="logo">
-            <%if(pkg.idoc.logo){%>
-                <img src="<%=relative_path%><%=pkg.idoc.logo%>">
+            <%if(pkg.gdoc.logo){%>
+                <img src="<%=relative_path%><%=pkg.gdoc.logo%>">
             <%}else{%>
                 <%= title %>
             <%}%>
         </div>
-        <input type="checkbox" id="idoc_nav" />
+        <input type="checkbox" id="gdoc_nav" />
         <div class="menu_tree">
         <%- menu_html %>    
         </div>
@@ -16,8 +16,8 @@
         <div class="forkgithub"><a target="_blank" href="<%=pkg.repository.url%>">fork on github</a></div>
         <%}%>
 
-        <section class="idoc_nav_btn">
-            <label for="idoc_nav"><span></span></label>
+        <section class="gdoc_nav_btn">
+            <label for="gdoc_nav"><span></span></label>
         </section>
     </div>
     

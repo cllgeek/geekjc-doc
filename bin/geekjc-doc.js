@@ -4,7 +4,7 @@ var commander = require('commander');
 var appInfo = require('../package');
 var geekjcDoc  = require('..');
 var log =console.log;
-var safe = require('colors-cli/safe');
+var color = require('chalk');
 
 commander
     .usage('[options]')
@@ -26,7 +26,7 @@ commander
 
 commander
     .on('--help',function(){
-        log('  Examples:'.bold.blue);
+        log(chalk.blue('  Examples:'));
         log('')
         log('    $ geekjc-doc init');
         log('    $ geekjc-doc init [path] ');
